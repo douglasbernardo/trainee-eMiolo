@@ -1,7 +1,6 @@
 # Exercícios git eMiolo
 
-- [x] Exercícios 
-- Exercício 1 [x]
-- Exercício 2 [X]
-- Exercício 3 [X]
-- Exercício 4 [X]
+- [x] Exercício1
+- [x] Exercício 2
+- [x] Exercício 3
+- [x] Exercício 4
