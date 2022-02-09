@@ -1,5 +1,4 @@
-# Exercícios eMiolo
-
+<h1 style="text-align:center">Exercícios eMiolo</h1>
 ## Exercícios de Git
 - [x] Exercício1
 - [x] Exercício 2
