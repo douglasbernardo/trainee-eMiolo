@@ -5,3 +5,5 @@
 - [x] Exercício 2
 - [x] Exercício 3
 - [x] Exercício 4
+
+## 2 - Exercício API
