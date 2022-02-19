@@ -13,12 +13,6 @@ app.set("view engine","handlebars")
 app.use(express.urlencoded({extended: true,}),)
 app.use(express.json())
 
-app.get("/myapi/digaOla/:nome",(req,resp)=>{
-    resp.status(201).json({
-        mensagem:`Hello World, ${req.params.nome}`
-    })
-})
-
 app.use("/myapi/usuario",rotaUsuario)
 
 
