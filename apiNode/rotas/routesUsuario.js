@@ -11,5 +11,7 @@ router.post("/clube",usuario.formularioClubePost)
 
 router.get("/cursos/:id",usuario.cursos)
 
+router.get("/helloWorld/:nome",usuario.sayHelloWorld)
+
 
 module.exports = router
