@@ -5,6 +5,7 @@ class Usuario
 {   
     static formularioImc(req,res){
         res.sendFile(`${path}/formularioImc.html`)
+        console.log(path)
     }
     static formularioImcPost(req,res){
         const {nome,peso,altura} = req.body
@@ -84,7 +85,7 @@ class Usuario
         }
         if(idade < 18){
             res.status(201).json({
-                mensagem:`Usuario ${nome} não tem idade suficiente para entrar para o clube`
+                mensagem:`Usuario ${nome} não tem idade para ser um participante do clube`
             })
             return
         }
@@ -99,6 +100,7 @@ class Usuario
     }
 
     static cursos(req,res){
+        
         const cursos = [
             {id:1,nome:"Engenharia de software."},
             {id:2,nome:"Economia."},
@@ -124,6 +126,12 @@ class Usuario
                 "id": curso.id,
                 "nome": curso.nome
             }
+        })
+    }
+
+    static sayHelloWorld(req,res){
+        res.status(201).json({
+            mensagem:`Hello World, ${req.params.nome}`
         })
     }
 }
