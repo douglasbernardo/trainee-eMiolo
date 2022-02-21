@@ -33,7 +33,6 @@ class Usuario
         const calculo = peso / (altura * altura)
     
         let msg = "" //mensagem da classificação
-        
 
         if(calculo < 18.5){
             msg = "Abaixo do normal"
@@ -99,7 +98,7 @@ class Usuario
         })
     }
 
-    static cursos(req,res){
+    static cursosEscolha(req,res){
         
         const cursos = [
             {id:1,nome:"Engenharia de software."},
@@ -131,7 +130,7 @@ class Usuario
 
     static sayHelloWorld(req,res){
         res.status(201).json({
-            mensagem:`Hello World, ${req.params.nome}`
+            mensagem:`Hello World`
         })
     }
 }
