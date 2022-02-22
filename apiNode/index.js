@@ -2,13 +2,9 @@
 const express = require("express")
 const app = express()
 
-const handleBars = require("express-handlebars")
-
 //rotas
 const rotaUsuario = require("./rotas/routesUsuario")
 
-app.engine("handlebars",handleBars.engine())
-app.set("view engine","handlebars")
 
 app.use(express.urlencoded({extended: true,}),)
 app.use(express.json())
