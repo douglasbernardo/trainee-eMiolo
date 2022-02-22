@@ -5,7 +5,6 @@ const app = express()
 //rotas
 const rotaUsuario = require("./rotas/routesUsuario")
 
-
 app.use(express.urlencoded({extended: true,}),)
 app.use(express.json())
 
