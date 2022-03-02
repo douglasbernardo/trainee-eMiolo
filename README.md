@@ -7,3 +7,4 @@
 - [x] Exercício 4
 
 ## 2 - Exercício API
+- [x] Criar um endpoint de helloWorld
