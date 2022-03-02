@@ -8,4 +8,4 @@
 
 ## 2 - Exercício API
 - [x] Criar um endpoint de helloWorld
-- [x] Criar outros 3 endpoints de sua preferência 
+- [x] Criar outros 3 endpoints 
